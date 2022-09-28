@@ -1,0 +1,1924 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* CSS RESET */
+
+/* FONTS */
+
+@font-face {
+    font-family: People_Book;
+    src: url(Fonts/PEOPLEBOOK.otf);
+  }
+
+@font-face {
+    font-family: Mogen_Bold;
+    src: url(Fonts/Mogen-Bold.otf);
+  }
+
+  @font-face {
+    font-family: Pocket Money;
+    src: url(Fonts/Pocket\ Money.ttf);
+  }
+
+/** FONTS /
+
+/* HEADER */
+
+body {
+
+    border: 0px solid #000;
+    overflow-x:hidden;
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(253, 165, 148);
+}
+
+header {
+    height: 100px;
+    border: 1px solid #000000;
+    background-color: #353535;
+    
+}
+
+
+#limitetexto{
+    width: 100%;
+    height: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+#limitetexto:hover{
+
+    overflow: visible;
+
+}
+
+#logo{
+    height: 90%;
+    margin-left: 15px;
+    float: left;
+    background-image: url(media/GIF/Reading\ glasses.gif);
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pesquisa{
+    height: 50%;
+    float: left;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+section img{
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    opacity: 1;
+    size-adjust: 2;
+    /* OLD IE */
+    zoom: 2;
+    filter: alpha(opacity=0);
+    border-radius: 8px;
+}
+
+.deletar_feedback{
+
+    width: 200px;
+    height: 34px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+#search_text{
+
+float: left;
+width: 90%;
+height: 47px;
+border: 0px solid #000;
+border-radius: 100px 0px 0px 100px;
+
+
+}
+
+#Login_button{
+
+    float: right;    
+    width: 100%;
+    height: 40px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+#Login_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+#Cadastrar_button{
+
+    float: right;      
+    width: 100%;
+    height: 40px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+#Cadastrar_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+#buscar_button{
+
+    float: left;
+    width: 10%;
+    height: 47px;
+    border-radius: 0px 40px 40px 0px;
+    background-color: rgb(202, 111, 111);
+    color: rgb(0, 0, 0);
+}
+
+#buscar_button:hover{ background-color: #f00; color: rgb(255, 255, 255); }
+
+
+#cadastro{
+    height: 70%;
+    float: left;
+    margin-top: 23px;
+    margin-left: 130px;
+}
+#login{
+    height: 70%;
+    float: left;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+/* HEADER */
+
+main{
+    height: 600px;
+    width: 99.8%;
+}
+#logoff{
+    height: 70%;
+    float: right;
+    margin-top: 24px;
+    margin-left: 15px;
+}
+
+#nomelogado{
+    height: 30%;
+    float: left;
+    font-size: 23px;
+    margin-top: 35px;
+    margin-left: 40px; 
+    text-align: center;
+    font-family: Mogen_Bold;
+}
+
+#fotop{
+    height: 65%;
+    border: 3px solid #000000;
+    background-color: #353535;
+    margin-left: 155px;
+    margin-top: 100px;
+    float: left;
+    border-radius: 15px;
+    background-image: url(media/GIF/Bug.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+article{
+    height: 65%;
+    width: 40%;
+    float: left;
+    margin-top: 55px;
+    margin-left: 200px;
+}
+
+#alterar_foto_livro{
+
+    float: left;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 40px;
+    border: 3px solid #ff7c7c;
+    background-color: #353535;
+    color: white;
+}
+#nomep{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#nomep2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+
+
+#autor{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#autor2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+
+#genero{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#genero2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+
+#editora{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#editora2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+
+#pagina{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#pagina2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+
+#ano{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+}
+
+#ano2{
+    height: 8%;
+    border: 3px solid #535353;
+    float: left;
+    margin-left: 15px;
+    display: none;
+}
+#botao{
+    height: 12%;
+    border-radius: 4px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+#editar{
+    height: 8%;
+    border: 1px solid #000000;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#excluir{
+    height: 8%;
+    border: 1px solid #000000;
+    float: left;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+#seufb{
+    height: 45%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+#fdp{
+    height: 80%;
+    border: 3px solid #ff7c7c;
+    background-color: #a56d6d;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 100px;
+    float: left;
+}
+#ndu{
+    height: 12%;
+    border-radius: 10px;
+    padding-left: 12px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 25PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+}
+#comentario{
+    height: 44.50%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#qdp{
+    height: 15%;
+    
+    border-bottom: 3px solid #ff7c7c;
+    border-radius: 2px;
+    float: left;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Pocket Money;
+    margin-top: 45px;
+    margin-left: 100px;
+    
+    text-align: center;
+}
+
+#qdpn{
+
+    height: 15%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+#nota_qualidade_produto{
+
+    height: 100%;
+    padding-left: 10px;
+    border-bottom: 3px solid #ff7c7c;
+    border-radius: 2px;
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    float: left;    
+
+
+}
+.estrela{
+    height: 15%;
+    width: 4%;
+    border: 1px solid #000000;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#efb{
+    height: 15%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+#fbfeito{
+    height: 25%;
+    border: 1px solid #000000;
+    float: right;
+    margin-top: 55px;
+    margin-right: 550px;
+}
+
+.default_text_config{
+
+    float: left;
+    height:  28px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Pocket Money;
+    font-size: 25PX;
+    font-weight: bold;
+    font-style: italic;
+}
+
+*:disabled {
+    background-color: rgb(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: 0PX SOLID #000;
+    opacity: 1;
+}
+
+
+#book_edit_button{
+
+    float: left;
+    margin-left: 10px;
+    width: 180px;
+    font-size: 25PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+    display: block;
+    
+}
+
+#book_edit_confirm_button{
+
+    float: left;
+    margin-left: 10px;
+    width: 180px;
+    font-size: 25PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+    display: none;
+}
+
+#book_cancel_button{
+
+    float: right;
+    margin-right: 10px;
+    width: 180px;
+    font-size: 25PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+    display: none;
+
+}
+
+#book_delete_button{
+
+    float: right;
+    margin-right: 10px;
+    width: 180px;
+    font-size: 25PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+    
+}
+
+#CAMPO_LIVRE_COMMENT{
+
+    
+    border: 3px solid #ff7c7c;
+    
+    border-radius: 12px;
+    resize: none;
+    font-size: 20PX;
+    font-family: Mogen_Bold;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* BARRA DE SCROLL */
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f0dada;
+    cursor: pointer;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 159, 159);
+    cursor: pointer;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(92, 92, 92);
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+#feedback_book_add{
+
+    float: right;
+    width: 100px;
+    height: 40px;
+    font-size: 20PX;
+    font-weight: bold;
+    font-family: Pocket Money;
+    
+}
+
+#config_digitar_novodado{
+
+    float: left;
+    height: 100%;
+}
+
+#titulo_01{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+}
+
+#titulo_02{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+#titulo_03{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#titulo_04{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+#titulo_05{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#titulo_06{
+
+    float: left;
+    margin-left: 20px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+.User_Name_Import{
+
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid rgb(255, 85, 85);
+    border-radius: 10px;
+    background-color: #f7cdcd;
+    height: 30px;
+    font-family: Pocket Money;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.Comment_Import{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 20px;
+    float: left;
+    font-family: Pocket Money;
+    font-size: 20px;
+    height: auto;
+
+}
+
+.product_quality_config{
+
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    border: 2px solid rgb(255, 85, 85);
+    background-color: #f7cdcd;
+    height: auto;
+    font-family: Pocket Money;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.Note_Import{
+
+    float: left;    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    border: 2px solid rgb(84, 167, 59);
+    background-color: #d7f7cd;
+    font-family: Pocket Money;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#feedback_image_left{
+    float: left;
+    height: 350px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(media/GIF/Left_Feedback.gif);
+}
+
+#feedback_image_right{
+    float: right;
+    height: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(media/GIF/Right_Feedback.gif);
+    margin-top: 10px;
+}
+
+#fbfeito1{
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin-top: 25px;
+    margin-left: 210px;
+    border-radius: 14px;
+    height: auto;
+    background-color: #fff6ee;
+    margin-bottom: 20px;
+}
+
+
+
+#feedback_adm_delete_section{
+
+    float: right;
+    height: 43px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+#feedback_adm_delete_button{
+
+    float: right;
+    height: 43px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px){
+
+    *{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 599px) {
+   
+    #alterar_foto_livro{
+
+        width: 330px;
+        margin-left: 125px;
+    }
+
+    #buscar_button{
+        float: left;
+        width: 20%;
+        height: 47px;
+        border-radius: 0px 40px 40px 0px;
+        background-color: rgb(202, 111, 111);
+        color: rgb(0, 0, 0);
+    }
+
+    header{
+
+        height: 160px;
+    }
+
+
+    #logo{
+
+        float: left;
+    }
+
+    #search_text{
+
+        width: 72%;
+    }
+
+    #buscar_button{
+
+        width: 70px;
+    }
+
+    #nomelogado{
+        font-size: 15px;
+        float: right;
+        margin-right: 100px;
+        
+    }
+
+    #pesquisa{
+
+        margin-left: 110px;
+        height: 52px;
+
+    }
+
+    #logoff{
+        float: left;
+        padding: 0px 0px 10px 14px;
+        height: 45px;
+        
+    }
+
+    #fotop{
+
+        margin-left: 120px;
+    }
+
+    article {
+
+        margin-left: 140px;
+        margin-bottom: 100px;
+    }
+
+    #config_digitar_novodado{
+
+        width: 100%;
+    }
+    #nomep{
+
+        height: 34px;
+       width: 240px;
+    }
+
+    #nomep2{
+
+        height: 34px;
+       width: 240px;
+    }
+
+    #autor{
+
+        height: 34px;
+       width: 240px;
+    }
+
+    #autor2{
+
+        height: 34px;
+       width: 240px;
+    }
+
+    #genero{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #genero2{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #editora{
+
+        height: 34px;
+        width: 240px;
+    }
+    
+    #editora2{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #pagina{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #pagina2{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #ano{
+
+        height: 34px;
+        width: 240px;
+    }
+
+    #ano2{
+
+        height: 34px;
+        width: 240px;
+    }
+
+
+    #comments_reposition{
+
+        margin-left: 1px;
+
+        margin-top: 10px;
+        float: left;
+        
+    }
+
+    #fbfeito1{
+
+        margin-top: 30px;
+        margin-left: 10px;
+        height: auto;
+    }
+
+    .User_Name_Import{
+
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Comment_Import{
+
+        width: 92%;
+    }
+
+    .product_quality_config{
+
+        width: 32%;
+    }
+
+    .Note_Import{
+
+        width: 100px;
+    }
+
+    #book_edit_button {
+        width: 100px;
+        margin-left: 67px;
+    
+    }
+    #book_edit_confirm_button {
+        width: 120px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    #book_cancel_button{
+        width: 100px;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    #book_delete_button{
+        width: 100px;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 820px){
+
+    #alterar_foto_livro{
+
+        margin-left: 150px;
+        width: 320px;
+    }
+   
+    #buscar_button{
+        float: left;
+        width: 20%;
+        height: 47px;
+        border-radius: 0px 40px 40px 0px;
+        background-color: rgb(202, 111, 111);
+        color: rgb(0, 0, 0);
+    }
+
+    header{
+
+        height: 160px;
+    }
+
+
+    #logo{
+
+        float: left;
+    }
+
+    #search_text{
+
+        width: 72%;
+    }
+
+    #buscar_button{
+
+        width: 70px;
+    }
+
+    #nomelogado{
+        font-size: 15px;
+        float: right;
+        margin-right: 100px;
+        
+    }
+
+    #pesquisa{
+
+        margin-left: 110px;
+        height: 52px;
+
+    }
+
+    #logoff{
+        float: left;
+        padding: 0px 0px 10px 14px;
+        height: 45px;
+        
+    }
+
+    #fotop{
+
+        margin-left: 135px;
+    }
+
+    article {
+
+        margin-left: 150px;
+        margin-bottom: 120px;
+    }
+
+    #config_digitar_novodado{
+
+        width: 100%;
+    }
+    #nomep{
+
+        height: 34px;
+       width: 440px;
+    }
+
+    #nomep2{
+
+        height: 34px;
+       width: 440px;
+    }
+
+    #autor{
+
+        height: 34px;
+       width: 440px;
+    }
+
+    #autor2{
+
+        height: 34px;
+       width: 440px;
+    }
+
+    #genero{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #genero2{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #editora{
+
+        height: 34px;
+        width: 440px;
+    }
+    
+    #editora2{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #pagina{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #pagina2{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #ano{
+
+        height: 34px;
+        width: 440px;
+    }
+
+    #ano2{
+
+        height: 34px;
+        width: 440px;
+    }
+
+
+    #comments_reposition{
+
+        margin-left: 1px;
+        margin-top: 300px;
+        float: left;
+        
+    }
+
+    #fbfeito1{
+
+        width: 96%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .User_Name_Import{
+
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Comment_Import{
+
+        width: 95%;
+    }
+
+    .product_quality_config{
+
+        width: 20%;
+    }
+
+    .Note_Import{
+
+        width: 40px;
+    }
+
+    #book_edit_button {
+        width: 300px;
+        margin-left: 67px;
+    
+    }
+    #book_edit_confirm_button {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 67px;
+    }
+
+    #book_cancel_button{
+        width: 300px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    #book_delete_button{
+        width: 300px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    .deletar_feedback{
+
+        width: 200px;
+        height: 34px;
+        margin-top: 10px;
+        float: right;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 821px) and (max-width: 855px){
+    
+   
+
+    #buscar_button{
+        float: left;
+        width: 20%;
+        height: 47px;
+        border-radius: 0px 40px 40px 0px;
+        background-color: rgb(202, 111, 111);
+        color: rgb(0, 0, 0);
+    }
+
+    header{
+
+        height: 160px;
+    }
+
+
+    #logo{
+
+        float: left;
+    }
+
+    #search_text{
+
+        width: 72%;
+    }
+
+    #buscar_button{
+
+        width: 70px;
+    }
+
+    #nomelogado{
+        font-size: 20px;
+        float: right;
+        margin-right: 100px;
+
+    }
+
+    #pesquisa{
+
+        margin-left: 160px;
+        height: 52px;
+
+    }
+
+    #logoff{
+        float: left;
+        padding: 0px 0px 10px 14px;
+        height: 45px;
+
+    }
+
+    #fotop{
+
+        margin-left: 185px;
+    }
+
+    article{
+        width: 30%;
+        margin-left: 350px;
+        margin-bottom: 250px;
+    }
+
+    #titulo_01{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        float: left;
+    }
+
+    #titulo_02{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        float: left;
+    }
+
+    #titulo_03{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        float: left;
+    }
+
+    #titulo_04{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        float: left;
+    }
+
+    #titulo_05{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        float: left;
+    }
+
+    #titulo_06{
+
+        width: 130px;
+        height: 52px;
+        text-align: center;
+        float: left;
+    }
+    
+
+    #config_digitar_novodado{
+
+        width: 100%;
+    }
+
+    #nomep{
+
+        width: 140PX;
+        height: 60PX;
+        padding-left: 10px;
+        
+    }
+
+    #nomep2{
+        width: 130px;
+        height: 36px;
+        margin-right: 250px;
+        margin-bottom: 10px;
+    }
+    
+
+    #autor{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    #autor2{
+        width: 130px;
+        height: 36px;
+        margin-right: 210px;
+        margin-bottom: 10px;
+    }
+
+    #genero{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    #genero2{
+        width: 130px;
+        height: 36px;
+        margin-right: 210px;
+        margin-bottom: 10px;
+    }
+
+    #editora{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+
+    #editora2{
+        width: 130px;
+        height: 36px;
+        margin-right: 210px;
+        margin-bottom: 10px;
+    }
+
+    #pagina{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    
+    #pagina2{
+        width: 130px;
+        height: 36px;
+        margin-bottom: 10px;
+        margin-right: 210px;
+    }
+
+    #ano{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    
+    #ano2{
+        width: 130px;
+        height: 36px;
+        margin-right: 210px;
+        margin-bottom: 10px;
+    }
+
+    #aviso_fazer_login{
+
+        margin-left: 120px;
+        margin-top: 1150px;
+        position: absolute;
+    }
+
+    #comments_reposition{
+
+        margin-left: 1px;
+        margin-top: 300px;
+        float: left;
+        
+    }
+
+    #fbfeito1{
+        margin-left: 15px;
+        width: 94%;
+    }
+
+    #book_edit_button {
+        width: 150px;
+        margin-left: 1px;
+        margin-top: 40px;
+    
+    }
+    #book_edit_confirm_button {
+        width: 150px;
+        margin-left: 1px;
+        margin-top: 40px;
+    }
+
+    #book_cancel_button{
+        width: 150px;
+        margin-right: 83px;
+        margin-top: 20px;
+        
+    }
+
+    #book_delete_button{
+        width: 150px;
+        margin-right: 83px;
+        margin-top: 20px;
+    }
+
+    #alterar_foto_livro{
+
+        margin-left: 300px;
+    }
+
+    #limitetexto{
+        width: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    
+    }
+    
+    #limitetexto:hover{
+    
+        overflow: visible;
+    
+    }
+
+    .User_Name_Import{
+
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Comment_Import{
+
+        width: 94%;
+    }
+
+    .product_quality_config{
+
+        width: 180PX;
+    }
+
+
+}
+
+@media only screen and (min-width: 856px) and (max-width: 991px){
+
+    
+      
+
+   
+    #buscar_button{
+        float: left;
+        width: 20%;
+        height: 47px;
+        border-radius: 0px 40px 40px 0px;
+        background-color: rgb(202, 111, 111);
+        color: rgb(0, 0, 0);
+    }
+
+    header{
+
+        height: 16  0px;
+        width: 10%;
+       
+    }
+
+
+    #logo{
+
+        float: left;
+        width: 100px;
+    }
+
+    #search_text{
+
+        width: 73%;
+    }
+
+    #buscar_button{
+
+        float: left;
+        width: 72px;
+    }
+
+    #nomelogado{
+        font-size: 20px;
+        float: right;
+        width: 250px;
+        
+        
+    }
+
+    #pesquisa{
+
+        margin-left: 10px;
+        height: 52px;
+        width: 280px;
+
+    }
+
+    #logoff{
+        float: right;
+        height: 45px;
+        width: 90px;
+        
+    }
+
+    #fotop{
+
+        margin-left: 210px;
+    }
+    
+    article{
+        width: 30%;
+        margin-left: 350px;
+        margin-bottom: 250px;
+    }
+
+    #titulo_01{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+
+    #titulo_02{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+
+    #titulo_03{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+
+    #titulo_04{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+
+    #titulo_05{
+
+        width: 130px;
+        height: 36px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+
+    #titulo_06{
+
+        width: 130px;
+        height: 52px;
+        text-align: center;
+        margin-left: 90px;
+        float: left;
+    }
+    
+
+    #config_digitar_novodado{
+
+        width: 100%;
+    }
+
+    #nomep{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+        
+    }
+
+    #nomep2{
+        width: 130px;
+        height: 36px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    
+
+    #autor{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+
+    #autor2{
+        width: 130px;
+        height: 36px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    #genero{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+
+    #genero2{
+        width: 130px;
+        height: 36px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    #editora{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+
+    #editora2{
+        width: 130px;
+        height: 36px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    #pagina{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+    
+    #pagina2{
+        width: 130px;
+        height: 36px;
+        margin-bottom: 10px;
+        margin-left: 90px;
+    }
+
+    #ano{
+
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 80px;
+    }
+    
+    #ano2{
+        width: 130px;
+        height: 36px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    #aviso_fazer_login{
+
+        margin-left: 120px;
+        margin-top: 1150px;
+        position: absolute;
+    }
+
+    #comments_reposition{
+
+        margin-left: 1px;
+        margin-top: 300px;
+        float: left;
+        
+    }
+
+    #fbfeito1{
+        margin-left: 1px;
+        width: 94%;
+        height: auto;
+    }
+
+    #book_edit_button {
+        width: 150px;
+        margin-left: 58px;
+        margin-top: 40px;
+    
+    }
+    #book_edit_confirm_button {
+        width: 150px;
+        margin-left: 58px;
+        margin-top: 40px;
+    }
+
+    #book_cancel_button{
+        width: 150px;
+        margin-right: 73px;
+        margin-top: 20px;
+        
+    }
+
+    #book_delete_button{
+        width: 150px;
+        margin-right: 73px;
+        margin-top: 20px;
+    }
+
+    #alterar_foto_livro{
+
+        margin-left: 300px;
+    }
+
+    #limitetexto{
+        width: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    
+    }
+    
+    #limitetexto:hover{
+    
+        overflow: visible;
+    
+    }
+
+    #alterar_foto_livro{
+
+        margin-left: 300px;
+    }
+
+    #limitetexto{
+        width: 100%;
+        height: auto;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    
+    }
+    
+    #limitetexto:hover{
+    
+        overflow: visible;
+    
+    }
+
+    .User_Name_Import{
+
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Comment_Import{
+
+        width: 94%;
+    }
+
+    .product_quality_config{
+
+        width: 180PX;
+    }
+    
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1261px){
+
+   
+
+    #nomelogado{
+        font-size: 20px;
+        float: right;
+        width: 250px;
+        
+    }
+
+    #buscar_button{
+
+        width: 14%;
+        font-size: 12px;
+    }
+
+    #search_text{
+        width: 40%;
+    }
+
+    #logoff{
+        float: left;
+        padding: 0px 0px 0px 10px;
+        height: 45px;
+        width: 10px;
+        
+    }
+
+    #fotop{
+
+        margin-left: 180px;
+        width: 360px;
+    }
+    article{
+        margin-bottom: 200px;
+        margin-left: 50px;
+    }
+
+    #nomep{
+
+        height: 60px;
+    }
+
+    #autor{
+
+        height: 60px;
+    }
+
+    #genero{
+
+        height: 60px;
+    }
+
+    #editora{
+
+        height: 60px;
+    }
+
+    #pagina{
+
+        height: 60px;
+    }
+
+    #ano{
+
+        height: 60px;
+    }
+
+    #aviso_fazer_login{
+
+        margin-left: 120px;
+        margin-top: 1150px;
+        position: absolute;
+    }
+
+    #comments_reposition{
+
+        margin-left: 1px;
+        margin-top: 300px;
+        float: left;
+        
+    }
+
+    #fbfeito1{
+        margin-left: 172px;
+    }
+
+    #book_edit_button {
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    #book_edit_confirm_button {
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #book_cancel_button{
+        width: 150px;
+        width: 150px;
+        margin-right: 0px;
+        
+    }
+
+    #book_delete_button{
+        width: 150px;
+        margin-right: 0px;
+    }
+
+    #alterar_foto_livro{
+
+        margin-left: 200px;
+    }
+
+}
